@@ -94,7 +94,7 @@ module Resort
         elements = {}
 
         all.each do |element|
-          if ordered_elements.empty? && element.first?
+          if element.first?
             ordered_elements << element
           else
             elements[element.id] = element
